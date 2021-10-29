@@ -1,0 +1,22 @@
+{
+  "name": "phcent/webman-filesystem",
+  "description": "Flysystem V2 adapter for the webman",
+  "keywords": ["webman", "filesystem", "oss","cos","qiniu"],
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "league/flysystem": "^2.3"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Phcent\\WebmanFilesystem\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Uncle Song",
+      "email": "8988354@qq.com"
+    }
+  ]
+}
