@@ -133,7 +133,7 @@ composer require "overtrue/flysystem-cos:^4.0"
         $filesystem =  FilesystemFactory::get('local');
         $stream = fopen($file->getRealPath(), 'r+');
         $filesystem->writeStream(
-            'uploads/'.$file->getClientFilename(),
+            'uploads/'.$file-getUploadName(),
             $stream
         );
         fclose($stream);
